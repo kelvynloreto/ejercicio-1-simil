@@ -37,7 +37,8 @@ const DataUsers = () => {
             onClick={randomUser}
             className="repeat"
             name="repeat"
-            ></box-icon>
+            animation="tada"
+          ></box-icon>
         </div>
       </div>
     </div>
