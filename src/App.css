@@ -1,0 +1,121 @@
+:root{
+    --Color0: #3F72AF;
+    --Color1: #CCA8E9;
+    --Color2: #14FFEC;
+    --Color3: #EF5B0C;
+    --Color4: #7A4069;
+    --Color5: #EB1D36;
+    --Color6: #c9bd38;
+    --Color7: #A0D995;
+    --Color8: #505563;
+    --Color9: #CE9461;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   }
+.cards_Users{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 350px;
+height: 400px;
+border: double 10px black;
+gap: 1em;
+padding: 1em 0 ;
+background-color: white;
+filter: drop-shadow(10px 10px 10px black);
+border-radius: 2em;
+  }
+.bg0{
+    background-color: var(--Color0);
+}
+.card0{
+    color: var(--Color0);
+}
+.bg1{
+    background-color: var(--Color1);
+}
+.card1{
+    color: var(--Color1);
+}
+.bg2{
+    background-color: var(--Color2);
+}
+.card2{
+    color: var(--Color2);
+}
+.bg3{
+    background-color:  var(--Color3);
+}
+.card3{
+    color: var(--Color3);
+}
+.bg4{
+    background-color: var(--Color4);
+}
+.card4{
+    color: var(--Color4);
+}
+.bg5{
+    background-color:  var(--Color5);
+}
+.card5{
+    color: var(--Color5);
+}
+.bg6{
+    background-color:  var(--Color6);
+}
+.card6{
+    color: var(--Color6);
+}
+.bg7{
+    background-color:  var(--Color7);
+}
+.card7{
+    color: var(--Color7);
+}
+.bg8{
+    background-color: var(--Color8);
+}
+.card8{
+    color: var(--Color8);
+}
+.bg9{
+    background-color:  var(--Color9);
+}
+.card9{
+    color: var(--Color9);
+}
+
+.iconrepeat{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.iconrepeat box-icon{
+    align-self: center;
+}
+.box_icons{
+    display: flex;
+    gap: 0.5em;
+}
+.box_icons p{
+    font-size: 20px;
+    
+}
