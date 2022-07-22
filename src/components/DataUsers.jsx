@@ -13,7 +13,7 @@ const DataUsers = () => {
   const [shuffle, setshuffle] = useState(0);
   const randomUser = () => {
     setshuffle(Math.floor(Math.random() * data.length));
-    console.log(random);
+  
   };
   return (
     <div className={`App bg${random}`}>
